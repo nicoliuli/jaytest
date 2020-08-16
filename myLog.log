@@ -292,3 +292,137 @@
 2020-08-16 13:47:50.118  INFO 2357 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 2020-08-16 13:47:50.118  INFO 2357 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2020-08-16 13:47:50.125  INFO 2357 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-16 13:54:17.891  INFO 2459 --- [main] com.jaytest.JaytestApplication           : Starting JaytestApplication on MacBook-Pro-7.lan with PID 2459 (/Users/liuli/code/zhangjie/jartmp/jaytest/target/classes started by liuli in /Users/liuli/code/zhangjie/jartmp/jaytest)
+2020-08-16 13:54:17.894  INFO 2459 --- [main] com.jaytest.JaytestApplication           : No active profile set, falling back to default profiles: default
+2020-08-16 13:54:18.945  INFO 2459 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-08-16 13:54:18.971  INFO 2459 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-16 13:54:18.972  INFO 2459 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-08-16 13:54:19.093  INFO 2459 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-16 13:54:19.093  INFO 2459 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1161 ms
+2020-08-16 13:54:19.598  INFO 2459 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-16 13:54:19.817  INFO 2459 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-16 13:54:19.820  INFO 2459 --- [main] com.jaytest.JaytestApplication           : Started JaytestApplication in 2.231 seconds (JVM running for 2.546)
+2020-08-16 13:54:31.467  INFO 2459 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-16 13:54:31.468  INFO 2459 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-16 13:54:31.474  INFO 2459 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-08-16 13:54:31.734  INFO 2459 --- [http-nio-8081-exec-2] com.jaytest.controller.TestController    : 解密后::{"data":[{"ogn_code":"a150400000000","ogn_id":"a150400000000","proj_code":"1","proj_id":"0aae850430954bb3accdffae2995880d","proj_name":"工商联活动房项目","proj_sname":"工商联活动房项目"}]}
+2020-08-16 13:54:31.735  INFO 2459 --- [http-nio-8081-exec-2] com.jaytest.controller.TestController    : json转成对象：TiRequest_zj01{orderList=[ProjectRequest{PROJ_ID='0aae850430954bb3accdffae2995880d', PROJ_CODE='1', PROJ_NAME='工商联活动房项目', PROJ_SNAME='工商联活动房项目', OGN_ID='a150400000000', OGN_CODE='a150400000000'}]}
+2020-08-16 13:54:31.752  INFO 2459 --- [http-nio-8081-exec-2] c.jaytest.service.impl.TestServiceImpl   : TestServiceImpl insertTiRequest {"dATA":[{"oGN_CODE":"a150400000000","oGN_ID":"a150400000000","pROJ_CODE":"1","pROJ_ID":"0aae850430954bb3accdffae2995880d","pROJ_NAME":"工商联活动房项目","pROJ_SNAME":"工商联活动房项目"}]}
+2020-08-16 13:54:31.766  INFO 2459 --- [http-nio-8081-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-16 13:54:32.533  INFO 2459 --- [http-nio-8081-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2020-08-16 13:54:32.620  INFO 2459 --- [http-nio-8081-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-16 13:54:49.502  INFO 2459 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-16 13:54:49.503  INFO 2459 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-16 13:54:49.515  INFO 2459 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-16 13:57:15.728  INFO 2475 --- [main] com.jaytest.JaytestApplication           : Starting JaytestApplication on MacBook-Pro-7.lan with PID 2475 (/Users/liuli/code/zhangjie/jartmp/jaytest/target/classes started by liuli in /Users/liuli/code/zhangjie/jartmp/jaytest)
+2020-08-16 13:57:15.732  INFO 2475 --- [main] com.jaytest.JaytestApplication           : No active profile set, falling back to default profiles: default
+2020-08-16 13:57:16.712  INFO 2475 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-08-16 13:57:16.736  INFO 2475 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-16 13:57:16.736  INFO 2475 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-08-16 13:57:16.817  INFO 2475 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-16 13:57:16.818  INFO 2475 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1048 ms
+2020-08-16 13:57:17.276  INFO 2475 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-16 13:57:17.476  INFO 2475 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-16 13:57:17.479  INFO 2475 --- [main] com.jaytest.JaytestApplication           : Started JaytestApplication in 2.044 seconds (JVM running for 2.353)
+2020-08-16 13:57:26.360  INFO 2475 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-16 13:57:26.360  INFO 2475 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-16 13:57:26.365  INFO 2475 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-08-16 13:57:26.645  INFO 2475 --- [http-nio-8081-exec-1] com.jaytest.controller.TestController    : 解密后::{"data":[{"ogn_code":"a150400000000","ogn_id":"a150400000000","proj_code":"1","proj_id":"0aae850430954bb3accdffae2995880d","proj_name":"工商联活动房项目","proj_sname":"工商联活动房项目"}]}
+2020-08-16 13:57:26.645  INFO 2475 --- [http-nio-8081-exec-1] com.jaytest.controller.TestController    : json转成对象：TiRequest_zj01{orderList=[ProjectRequest{PROJ_ID='0aae850430954bb3accdffae2995880d', PROJ_CODE='1', PROJ_NAME='工商联活动房项目', PROJ_SNAME='工商联活动房项目', OGN_ID='a150400000000', OGN_CODE='a150400000000'}]}
+2020-08-16 13:57:26.662  INFO 2475 --- [http-nio-8081-exec-1] c.jaytest.service.impl.TestServiceImpl   : TestServiceImpl insertTiRequest {"dATA":[{"oGN_CODE":"a150400000000","oGN_ID":"a150400000000","pROJ_CODE":"1","pROJ_ID":"0aae850430954bb3accdffae2995880d","pROJ_NAME":"工商联活动房项目","pROJ_SNAME":"工商联活动房项目"}]}
+2020-08-16 13:57:26.676  INFO 2475 --- [http-nio-8081-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-16 13:57:27.565  INFO 2475 --- [http-nio-8081-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2020-08-16 13:57:27.631  INFO 2475 --- [http-nio-8081-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-16 13:58:34.175  INFO 2475 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-16 13:58:34.176  INFO 2475 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-16 13:58:34.182  INFO 2475 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-16 13:58:43.323  INFO 2489 --- [main] com.jaytest.JaytestApplication           : Starting JaytestApplication on MacBook-Pro-7.lan with PID 2489 (/Users/liuli/code/zhangjie/jartmp/jaytest/target/classes started by liuli in /Users/liuli/code/zhangjie/jartmp/jaytest)
+2020-08-16 13:58:43.325  INFO 2489 --- [main] com.jaytest.JaytestApplication           : No active profile set, falling back to default profiles: default
+2020-08-16 13:58:44.187  INFO 2489 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-08-16 13:58:44.211  INFO 2489 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-16 13:58:44.211  INFO 2489 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-08-16 13:58:44.287  INFO 2489 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-16 13:58:44.287  INFO 2489 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 931 ms
+2020-08-16 13:58:44.725  INFO 2489 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-16 13:58:44.948  INFO 2489 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-16 13:58:44.951  INFO 2489 --- [main] com.jaytest.JaytestApplication           : Started JaytestApplication in 4.408 seconds (JVM running for 4.713)
+2020-08-16 13:58:49.912  INFO 2489 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-16 13:58:49.912  INFO 2489 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-16 13:58:49.921  INFO 2489 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-08-16 13:58:49.958  WARN 2489 --- [http-nio-8081-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------727377798300685822852672' not supported]
+2020-08-16 13:59:05.271  INFO 2489 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-16 13:59:11.992  INFO 2503 --- [main] com.jaytest.JaytestApplication           : Starting JaytestApplication on MacBook-Pro-7.lan with PID 2503 (/Users/liuli/code/zhangjie/jartmp/jaytest/target/classes started by liuli in /Users/liuli/code/zhangjie/jartmp/jaytest)
+2020-08-16 13:59:11.995  INFO 2503 --- [main] com.jaytest.JaytestApplication           : No active profile set, falling back to default profiles: default
+2020-08-16 13:59:13.092  INFO 2503 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-08-16 13:59:13.114  INFO 2503 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-16 13:59:13.115  INFO 2503 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-08-16 13:59:13.193  INFO 2503 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-16 13:59:13.193  INFO 2503 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1163 ms
+2020-08-16 13:59:13.629  INFO 2503 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-16 13:59:13.836  INFO 2503 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-16 13:59:13.840  INFO 2503 --- [main] com.jaytest.JaytestApplication           : Started JaytestApplication in 2.147 seconds (JVM running for 2.464)
+2020-08-16 13:59:17.871  INFO 2503 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-16 13:59:17.871  INFO 2503 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-16 13:59:17.880  INFO 2503 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-08-16 13:59:17.920  WARN 2503 --- [http-nio-8081-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------983078248136055227138385' not supported]
+2020-08-16 13:59:18.714  WARN 2503 --- [http-nio-8081-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------571387171706432269693986' not supported]
+2020-08-16 14:00:05.360  INFO 2503 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-16 14:00:08.659  INFO 2516 --- [main] com.jaytest.JaytestApplication           : Starting JaytestApplication on MacBook-Pro-7.lan with PID 2516 (/Users/liuli/code/zhangjie/jartmp/jaytest/target/classes started by liuli in /Users/liuli/code/zhangjie/jartmp/jaytest)
+2020-08-16 14:00:08.662  INFO 2516 --- [main] com.jaytest.JaytestApplication           : No active profile set, falling back to default profiles: default
+2020-08-16 14:00:09.699  INFO 2516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-08-16 14:00:09.731  INFO 2516 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-16 14:00:09.731  INFO 2516 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-08-16 14:00:09.840  INFO 2516 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-16 14:00:09.840  INFO 2516 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1142 ms
+2020-08-16 14:00:10.297  INFO 2516 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-16 14:00:10.493  INFO 2516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-16 14:00:10.497  INFO 2516 --- [main] com.jaytest.JaytestApplication           : Started JaytestApplication in 2.138 seconds (JVM running for 2.446)
+2020-08-16 14:00:16.767  INFO 2516 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-16 14:00:16.768  INFO 2516 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-16 14:00:16.776  INFO 2516 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-08-16 14:00:16.809  WARN 2516 --- [http-nio-8081-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------460216640764161222887485' not supported]
+2020-08-16 14:00:41.575  INFO 2516 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-16 14:00:45.091  INFO 2529 --- [main] com.jaytest.JaytestApplication           : Starting JaytestApplication on MacBook-Pro-7.lan with PID 2529 (/Users/liuli/code/zhangjie/jartmp/jaytest/target/classes started by liuli in /Users/liuli/code/zhangjie/jartmp/jaytest)
+2020-08-16 14:00:45.094  INFO 2529 --- [main] com.jaytest.JaytestApplication           : No active profile set, falling back to default profiles: default
+2020-08-16 14:00:46.123  INFO 2529 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-08-16 14:00:46.152  INFO 2529 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-16 14:00:46.152  INFO 2529 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-08-16 14:00:46.234  INFO 2529 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-16 14:00:46.234  INFO 2529 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1104 ms
+2020-08-16 14:00:46.676  INFO 2529 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-16 14:00:46.880  INFO 2529 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-16 14:00:46.883  INFO 2529 --- [main] com.jaytest.JaytestApplication           : Started JaytestApplication in 2.083 seconds (JVM running for 2.393)
+2020-08-16 14:00:53.431  INFO 2529 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-16 14:00:53.431  INFO 2529 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-16 14:00:53.437  INFO 2529 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-08-16 14:00:53.708  INFO 2529 --- [http-nio-8081-exec-2] com.jaytest.controller.TestController    : 解密后::{"data":[{"ogn_code":"a150400000000","ogn_id":"a150400000000","proj_code":"1","proj_id":"0aae850430954bb3accdffae2995880d","proj_name":"工商联活动房项目","proj_sname":"工商联活动房项目"}]}
+2020-08-16 14:00:53.708  INFO 2529 --- [http-nio-8081-exec-2] com.jaytest.controller.TestController    : json转成对象：TiRequest_zj01{orderList=[ProjectRequest{PROJ_ID='0aae850430954bb3accdffae2995880d', PROJ_CODE='1', PROJ_NAME='工商联活动房项目', PROJ_SNAME='工商联活动房项目', OGN_ID='a150400000000', OGN_CODE='a150400000000'}]}
+2020-08-16 14:00:53.724  INFO 2529 --- [http-nio-8081-exec-2] c.jaytest.service.impl.TestServiceImpl   : TestServiceImpl insertTiRequest {"dATA":[{"oGN_CODE":"a150400000000","oGN_ID":"a150400000000","pROJ_CODE":"1","pROJ_ID":"0aae850430954bb3accdffae2995880d","pROJ_NAME":"工商联活动房项目","pROJ_SNAME":"工商联活动房项目"}]}
+2020-08-16 14:00:53.739  INFO 2529 --- [http-nio-8081-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-16 14:00:54.946  INFO 2529 --- [http-nio-8081-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2020-08-16 14:00:55.017  INFO 2529 --- [http-nio-8081-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-16 14:01:18.822  INFO 2529 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-16 14:01:18.823  INFO 2529 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-16 14:01:18.828  INFO 2529 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-16 14:01:22.277  INFO 2543 --- [main] com.jaytest.JaytestApplication           : Starting JaytestApplication on MacBook-Pro-7.lan with PID 2543 (/Users/liuli/code/zhangjie/jartmp/jaytest/target/classes started by liuli in /Users/liuli/code/zhangjie/jartmp/jaytest)
+2020-08-16 14:01:22.280  INFO 2543 --- [main] com.jaytest.JaytestApplication           : No active profile set, falling back to default profiles: default
+2020-08-16 14:01:23.303  INFO 2543 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-08-16 14:01:23.325  INFO 2543 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-16 14:01:23.325  INFO 2543 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-08-16 14:01:23.406  INFO 2543 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-16 14:01:23.406  INFO 2543 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1087 ms
+2020-08-16 14:01:23.850  INFO 2543 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-16 14:01:24.051  INFO 2543 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-16 14:01:24.055  INFO 2543 --- [main] com.jaytest.JaytestApplication           : Started JaytestApplication in 2.066 seconds (JVM running for 2.383)
+2020-08-16 14:01:31.392  INFO 2543 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-16 14:01:31.393  INFO 2543 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-16 14:01:31.402  INFO 2543 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-08-16 14:01:31.676  INFO 2543 --- [http-nio-8081-exec-2] com.jaytest.controller.TestController    : 解密后::{"data":[{"ogn_code":"a150400000000","ogn_id":"a150400000000","proj_code":"1","proj_id":"0aae850430954bb3accdffae2995880d","proj_name":"工商联活动房项目","proj_sname":"工商联活动房项目"}]}
+2020-08-16 14:01:31.676  INFO 2543 --- [http-nio-8081-exec-2] com.jaytest.controller.TestController    : json转成对象：TiRequest_zj01{orderList=[ProjectRequest{PROJ_ID='0aae850430954bb3accdffae2995880d', PROJ_CODE='1', PROJ_NAME='工商联活动房项目', PROJ_SNAME='工商联活动房项目', OGN_ID='a150400000000', OGN_CODE='a150400000000'}]}
+2020-08-16 14:01:31.693  INFO 2543 --- [http-nio-8081-exec-2] c.jaytest.service.impl.TestServiceImpl   : TestServiceImpl insertTiRequest {"dATA":[{"oGN_CODE":"a150400000000","oGN_ID":"a150400000000","pROJ_CODE":"1","pROJ_ID":"0aae850430954bb3accdffae2995880d","pROJ_NAME":"工商联活动房项目","pROJ_SNAME":"工商联活动房项目"}]}
+2020-08-16 14:01:31.707  INFO 2543 --- [http-nio-8081-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-16 14:01:33.033  INFO 2543 --- [http-nio-8081-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2020-08-16 14:01:33.332  INFO 2543 --- [http-nio-8081-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-16 14:02:08.345  INFO 2543 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-16 14:02:08.346  INFO 2543 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-16 14:02:08.353  INFO 2543 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
