@@ -1,0 +1,17 @@
+2020-08-16 10:16:05.556  INFO 50496 --- [main] com.jaytest.JaytestApplication           : Starting JaytestApplication on zhangjiedeMacBook-Pro.local with PID 50496 (/Users/zhangjie/Desktop/project/jaytest/target/classes started by zhangjie in /Users/zhangjie/Desktop/project/jaytest)
+2020-08-16 10:16:05.577  INFO 50496 --- [main] com.jaytest.JaytestApplication           : No active profile set, falling back to default profiles: default
+2020-08-16 10:16:07.686  INFO 50496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-08-16 10:16:07.723  INFO 50496 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-16 10:16:07.724  INFO 50496 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-08-16 10:16:07.889  INFO 50496 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-16 10:16:07.889  INFO 50496 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2200 ms
+2020-08-16 10:16:08.520  INFO 50496 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-16 10:16:08.812  INFO 50496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-16 10:16:08.819  INFO 50496 --- [main] com.jaytest.JaytestApplication           : Started JaytestApplication in 3.973 seconds (JVM running for 4.695)
+2020-08-16 10:16:18.818  INFO 50496 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-16 10:16:18.818  INFO 50496 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-16 10:16:18.828  INFO 50496 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-08-16 10:16:19.069  INFO 50496 --- [http-nio-8081-exec-1] c.jaytest.controller.ProjectController   : xml！！！请求::TiRequest_zj01{orderList=[ProjectRequest{PROJ_ID='0AAE850430954BB3ACCDFFAE2995880D', PROJ_CODE='1', PROJ_NAME='工商联活动房项目', PROJ_SNAME='工商联活动房项目', OGN_ID='A150400000000', OGN_CODE='A150400000000'}]}
+2020-08-16 10:16:19.070  INFO 50496 --- [http-nio-8081-exec-1] c.jaytest.controller.ProjectController   : xml！！！回复的返回值::ProjectResponse{code='000', data='数据上报成功!'}
+2020-08-16 10:16:19.567  INFO 50496 --- [http-nio-8081-exec-1] c.jaytest.controller.ProjectController   : 加密后::db07afa5ff502f5ffe20bf13e448501fcfccb21d95b72e95ecc5d989958144f56d5784089bb8b8898cffedddc51afbb7bf1d8a4b12faee8080edc85d7737d4e3531e2dca7cedc71e296b02eb4c552640d28ca6f08689a41c5fbd089d836d21054dfe3b30bb1d5f9d6bd484d31ac9670e7eefc14626fb9be5529d9777a694402ac339e86181df82f0
+2020-08-16 10:16:19.568  INFO 50496 --- [http-nio-8081-exec-1] c.jaytest.controller.ProjectController   : 解密后::劳务二期系统数据加密000111222

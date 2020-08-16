@@ -1,0 +1,19 @@
+2020-07-13 18:23:34.238 [main] INFO  com.jaytest.JaytestApplication - Starting JaytestApplication on zhangjiedeMacBook-Pro.local with PID 25920 (/Users/zhangjie/Desktop/project/jaytest/target/classes started by zhangjie in /Users/zhangjie/Desktop/project/jaytest)
+2020-07-13 18:23:34.242 [main] INFO  com.jaytest.JaytestApplication - No active profile set, falling back to default profiles: default
+2020-07-13 18:23:35.823 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-07-13 18:23:35.852 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-07-13 18:23:35.865 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-13 18:23:35.866 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-07-13 18:23:36.020 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-13 18:23:36.022 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1693 ms
+2020-07-13 18:23:36.707 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-13 18:23:36.958 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-07-13 18:23:37.003 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-13 18:23:37.007 [main] INFO  com.jaytest.JaytestApplication - Started JaytestApplication in 3.566 seconds (JVM running for 4.135)
+2020-07-13 18:23:47.264 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-13 18:23:47.264 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-13 18:23:47.273 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2020-07-13 18:23:47.314 [http-nio-8081-exec-1] INFO  com.jaytest.controller.DemoController - 哈哈哈哈哈哈哈哈哈在重中之重重中之重
+2020-07-13 18:23:47.340 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-07-13 18:23:47.737 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2020-07-13 18:23:47.745 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.

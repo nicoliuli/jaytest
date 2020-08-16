@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.jaytest.dao.DemoMapper">
+
+	<!-- 添加部门 -->
+	<insert id="addDemo" parameterType="com.jaytest.model.Demo" useGeneratedKeys="true" keyProperty="id">
+		insert into demo(id,name,sex,tel,date) values(#{id},#{name},#{sex},#{tel},#{date})
+	</insert>
+
+	<update id="updateDemo" parameterType="com.jaytest.model.Demo">
+		update demo set name=#{name} where id=#{id}
+	</update>
+
+
+	<select id="queryDemo" parameterType="String" resultType="com.jaytest.model.Demo">
+		select * from demo where name=#{name}
+	</select>
+
+	<select id="getDemo" parameterType="Integer" resultType="com.jaytest.model.Demo">
+		select * from demo where id=#{id} limit 1
+	</select>
+
+	<select id="delDemo" parameterType="Integer" resultType="com.jaytest.model.Demo">
+		delete from demo where id=#{id}
+	</select>
+
+</mapper>
