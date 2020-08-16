@@ -1,10 +1,10 @@
 package com.jaytest.controller;
 
+import com.alibaba.fastjson.JSON;
 import com.jaytest.model.ProjectResponse;
 import com.jaytest.model.RESUtils;
 import com.jaytest.model.TiRequest;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -53,9 +53,11 @@ public class ProjectController {
         log.info("xml！！！请求::" + tiRequest);
         log.info("xml！！！回复的返回值::" + o);
 
+        String json = JSON.toJSONString(tiRequest);
+        log.info("json={}",json,o);
 
         RESUtils resUtils = new RESUtils();
-        String mdmess = resUtils.desEncrypt("劳务二期系统数据加密000111222", "12345678");
+        String mdmess = resUtils.desEncrypt(json, "12345678");
         log.info("加密后::" + mdmess);
 
         String rmdmess = resUtils.desDecrypt(mdmess, "12345678");
