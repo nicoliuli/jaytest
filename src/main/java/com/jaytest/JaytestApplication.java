@@ -1,12 +1,13 @@
 package com.jaytest;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
-//扫描mapper
-//@MapperScan("com.jaytest.mapper")
+
+// 允许使用定时器
+@EnableScheduling
 public class JaytestApplication {
 
 	public static void main(String[] args) {

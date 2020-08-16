@@ -1039,3 +1039,162 @@ java.sql.SQLException: Parameter index out of range (1 > number of parameters, w
 2020-08-16 16:03:30.133  INFO 52069 --- [http-nio-8081-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
 2020-08-16 16:03:30.157  INFO 52069 --- [http-nio-8081-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
 2020-08-16 16:03:30.722  INFO 52069 --- [http-nio-8081-exec-2] c.jaytest.service.impl.TestServiceImpl   : aaaaaa={"pROJ_NAME":"工商联"},[{"oGN_CODE":"a150400000000","oGN_ID":"a150400000000","pROJ_CODE":"1","pROJ_ID":"0aae850430954bb3accdffae2235880d","pROJ_NAME":"工商联活动房项目3333","pROJ_SNAME":"工商联活动房项目33"},{"oGN_CODE":"a150400000000","oGN_ID":"a150400000000","pROJ_CODE":"1","pROJ_ID":"0aae850430954bb3a234efds995880d","pROJ_NAME":"工商联活动房项目4444","pROJ_SNAME":"工商联活动房项目44"},{"oGN_CODE":"a150400000000","oGN_ID":"a150400000000","pROJ_CODE":"1","pROJ_ID":"0aae850430954bb3accdffae2995880d","pROJ_NAME":"工商联222活动房项目","pROJ_SNAME":"工商联活动房项目"}]
+2020-08-16 16:26:32.324  INFO 3794 --- [main] com.jaytest.JaytestApplication           : Starting JaytestApplication on MacBook-Pro-7.local with PID 3794 (/Users/liuli/code/zhangjie/jartmp/jaytest/target/classes started by liuli in /Users/liuli/code/zhangjie/jartmp/jaytest)
+2020-08-16 16:26:32.327  INFO 3794 --- [main] com.jaytest.JaytestApplication           : No active profile set, falling back to default profiles: default
+2020-08-16 16:26:34.552  INFO 3794 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-08-16 16:26:34.598  INFO 3794 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-16 16:26:34.599  INFO 3794 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-08-16 16:26:34.770  INFO 3794 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-16 16:26:34.771  INFO 3794 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2375 ms
+2020-08-16 16:26:35.702  INFO 3794 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-16 16:26:36.150  INFO 3794 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-16 16:26:36.158  INFO 3794 --- [main] com.jaytest.JaytestApplication           : Started JaytestApplication in 4.633 seconds (JVM running for 5.219)
+2020-08-16 16:26:45.577  INFO 3794 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-16 16:26:59.984  INFO 3815 --- [main] com.jaytest.JaytestApplication           : Starting JaytestApplication on MacBook-Pro-7.local with PID 3815 (/Users/liuli/code/zhangjie/jartmp/jaytest/target/classes started by liuli in /Users/liuli/code/zhangjie/jartmp/jaytest)
+2020-08-16 16:26:59.988  INFO 3815 --- [main] com.jaytest.JaytestApplication           : No active profile set, falling back to default profiles: default
+2020-08-16 16:27:01.891  INFO 3815 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-08-16 16:27:01.935  INFO 3815 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-16 16:27:01.935  INFO 3815 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-08-16 16:27:02.098  INFO 3815 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-16 16:27:02.099  INFO 3815 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2055 ms
+2020-08-16 16:27:02.950  INFO 3815 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-16 16:27:03.338  INFO 3815 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-16 16:27:03.343  INFO 3815 --- [main] com.jaytest.JaytestApplication           : Started JaytestApplication in 3.85 seconds (JVM running for 4.432)
+2020-08-16 16:27:27.868  INFO 3815 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-16 16:27:44.032  INFO 3823 --- [main] com.jaytest.JaytestApplication           : Starting JaytestApplication on MacBook-Pro-7.local with PID 3823 (/Users/liuli/code/zhangjie/jartmp/jaytest/target/classes started by liuli in /Users/liuli/code/zhangjie/jartmp/jaytest)
+2020-08-16 16:27:44.039  INFO 3823 --- [main] com.jaytest.JaytestApplication           : No active profile set, falling back to default profiles: default
+2020-08-16 16:27:45.865  INFO 3823 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-08-16 16:27:45.909  INFO 3823 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-16 16:27:45.909  INFO 3823 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-08-16 16:27:46.072  INFO 3823 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-16 16:27:46.072  INFO 3823 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1974 ms
+2020-08-16 16:27:46.832  INFO 3823 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-16 16:27:47.245  INFO 3823 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-16 16:27:47.253  INFO 3823 --- [main] com.jaytest.JaytestApplication           : Started JaytestApplication in 3.711 seconds (JVM running for 4.265)
+2020-08-16 16:27:57.828  INFO 3823 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-16 16:29:09.847  INFO 3832 --- [main] com.jaytest.JaytestApplication           : Starting JaytestApplication on MacBook-Pro-7.local with PID 3832 (/Users/liuli/code/zhangjie/jartmp/jaytest/target/classes started by liuli in /Users/liuli/code/zhangjie/jartmp/jaytest)
+2020-08-16 16:29:09.857  INFO 3832 --- [main] com.jaytest.JaytestApplication           : No active profile set, falling back to default profiles: default
+2020-08-16 16:29:11.978  INFO 3832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-08-16 16:29:12.022  INFO 3832 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-16 16:29:12.023  INFO 3832 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-08-16 16:29:12.178  INFO 3832 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-16 16:29:12.179  INFO 3832 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2252 ms
+2020-08-16 16:29:13.034  INFO 3832 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-16 16:29:13.420  INFO 3832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-16 16:29:13.425  INFO 3832 --- [main] com.jaytest.JaytestApplication           : Started JaytestApplication in 4.288 seconds (JVM running for 4.898)
+2020-08-16 16:29:24.132  INFO 3832 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-16 16:37:11.172  INFO 3874 --- [main] com.jaytest.JaytestApplication           : Starting JaytestApplication on MacBook-Pro-7.local with PID 3874 (/Users/liuli/code/zhangjie/jartmp/jaytest/target/classes started by liuli in /Users/liuli/code/zhangjie/jartmp/jaytest)
+2020-08-16 16:37:11.176  INFO 3874 --- [main] com.jaytest.JaytestApplication           : No active profile set, falling back to default profiles: default
+2020-08-16 16:37:13.016  INFO 3874 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-08-16 16:37:13.064  INFO 3874 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-16 16:37:13.065  INFO 3874 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-08-16 16:37:13.304  INFO 3874 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-16 16:37:13.305  INFO 3874 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2066 ms
+2020-08-16 16:37:14.281  INFO 3874 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-16 16:37:14.706  INFO 3874 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-16 16:37:14.712  INFO 3874 --- [main] com.jaytest.JaytestApplication           : Started JaytestApplication in 4.49 seconds (JVM running for 5.101)
+2020-08-16 16:37:37.980  INFO 3874 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-16 16:37:58.840  INFO 3898 --- [main] com.jaytest.JaytestApplication           : Starting JaytestApplication on MacBook-Pro-7.local with PID 3898 (/Users/liuli/code/zhangjie/jartmp/jaytest/target/classes started by liuli in /Users/liuli/code/zhangjie/jartmp/jaytest)
+2020-08-16 16:37:58.849  INFO 3898 --- [main] com.jaytest.JaytestApplication           : No active profile set, falling back to default profiles: default
+2020-08-16 16:38:00.772  INFO 3898 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-08-16 16:38:00.814  INFO 3898 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-16 16:38:00.814  INFO 3898 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-08-16 16:38:00.970  INFO 3898 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-16 16:38:00.971  INFO 3898 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2051 ms
+2020-08-16 16:38:01.742  INFO 3898 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-16 16:38:02.005  INFO 3898 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-08-16 16:38:02.134  INFO 3898 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-16 16:38:02.139  INFO 3898 --- [main] com.jaytest.JaytestApplication           : Started JaytestApplication in 4.011 seconds (JVM running for 4.589)
+2020-08-16 16:38:07.295  INFO 3898 --- [Thread-3] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-08-16 16:38:07.298  INFO 3898 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-16 16:41:47.042  INFO 3930 --- [main] com.jaytest.JaytestApplication           : Starting JaytestApplication on MacBook-Pro-7.local with PID 3930 (/Users/liuli/code/zhangjie/jartmp/jaytest/target/classes started by liuli in /Users/liuli/code/zhangjie/jartmp/jaytest)
+2020-08-16 16:41:47.046  INFO 3930 --- [main] com.jaytest.JaytestApplication           : No active profile set, falling back to default profiles: default
+2020-08-16 16:41:49.376  INFO 3930 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-08-16 16:41:49.426  INFO 3930 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-16 16:41:49.427  INFO 3930 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-08-16 16:41:49.619  INFO 3930 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-16 16:41:49.619  INFO 3930 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2504 ms
+2020-08-16 16:41:50.566  INFO 3930 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-16 16:41:50.916  INFO 3930 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-08-16 16:41:51.066  INFO 3930 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-16 16:41:51.072  INFO 3930 --- [main] com.jaytest.JaytestApplication           : Started JaytestApplication in 4.812 seconds (JVM running for 5.431)
+2020-08-16 16:42:37.437  INFO 3930 --- [Thread-3] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-08-16 16:42:37.440  INFO 3930 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-16 17:00:28.072  INFO 4176 --- [main] com.jaytest.JaytestApplication           : Starting JaytestApplication on MacBook-Pro-7.local with PID 4176 (/Users/liuli/code/zhangjie/jartmp/jaytest/target/classes started by liuli in /Users/liuli/code/zhangjie/jartmp/jaytest)
+2020-08-16 17:00:28.075  INFO 4176 --- [main] com.jaytest.JaytestApplication           : No active profile set, falling back to default profiles: default
+2020-08-16 17:00:28.856  INFO 4176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-16 17:00:28.859  INFO 4176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-16 17:00:28.890  INFO 4176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2020-08-16 17:00:29.382  INFO 4176 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5fbc75f9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 17:00:29.717  INFO 4176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-08-16 17:00:29.747  INFO 4176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-16 17:00:29.748  INFO 4176 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-08-16 17:00:29.881  INFO 4176 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-16 17:00:29.881  INFO 4176 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1751 ms
+2020-08-16 17:00:30.297  WARN 4176 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisController': Unsatisfied dependency expressed through field 'redisService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisService': Unsatisfied dependency expressed through field 'redisTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.core.RedisTemplate<java.lang.String, java.lang.Object>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-08-16 17:00:30.301  INFO 4176 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-08-16 17:00:30.319  INFO 4176 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-08-16 17:00:30.411 ERROR 4176 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field redisTemplate in com.jaytest.service.impl.RedisServiceImpl required a bean of type 'org.springframework.data.redis.core.RedisTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.core.RedisTemplate' in your configuration.
+
+2020-08-16 17:02:10.769  INFO 4199 --- [main] com.jaytest.JaytestApplication           : Starting JaytestApplication on MacBook-Pro-7.local with PID 4199 (/Users/liuli/code/zhangjie/jartmp/jaytest/target/classes started by liuli in /Users/liuli/code/zhangjie/jartmp/jaytest)
+2020-08-16 17:02:10.774  INFO 4199 --- [main] com.jaytest.JaytestApplication           : No active profile set, falling back to default profiles: default
+2020-08-16 17:02:12.427  INFO 4199 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-16 17:02:12.431  INFO 4199 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-16 17:02:12.473  INFO 4199 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2020-08-16 17:02:13.098  INFO 4199 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fc17e1ad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 17:02:13.621  INFO 4199 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-08-16 17:02:13.672  INFO 4199 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-16 17:02:13.672  INFO 4199 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-08-16 17:02:13.953  INFO 4199 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-16 17:02:13.954  INFO 4199 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3111 ms
+2020-08-16 17:02:16.016  INFO 4199 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-16 17:02:16.639  INFO 4199 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-08-16 17:02:16.820  INFO 4199 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-16 17:02:16.825  INFO 4199 --- [main] com.jaytest.JaytestApplication           : Started JaytestApplication in 6.702 seconds (JVM running for 7.398)
+2020-08-16 17:02:45.568  INFO 4199 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-16 17:02:45.570  INFO 4199 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-16 17:02:45.593  INFO 4199 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 23 ms
+2020-08-16 17:02:46.113  INFO 4199 --- [http-nio-8081-exec-2] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-08-16 17:02:46.115  INFO 4199 --- [http-nio-8081-exec-2] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-08-16 17:02:57.766  INFO 4199 --- [Thread-3] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-08-16 17:02:57.768  INFO 4199 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-16 17:08:14.066  INFO 4216 --- [main] com.jaytest.JaytestApplication           : Starting JaytestApplication on MacBook-Pro-7.local with PID 4216 (/Users/liuli/code/zhangjie/jartmp/jaytest/target/classes started by liuli in /Users/liuli/code/zhangjie/jartmp/jaytest)
+2020-08-16 17:08:14.071  INFO 4216 --- [main] com.jaytest.JaytestApplication           : No active profile set, falling back to default profiles: default
+2020-08-16 17:08:15.560  INFO 4216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-16 17:08:15.566  INFO 4216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-16 17:08:15.623  INFO 4216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2020-08-16 17:08:16.308  INFO 4216 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8f4b0dc7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 17:08:16.888  INFO 4216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-08-16 17:08:16.952  INFO 4216 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-16 17:08:16.953  INFO 4216 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-08-16 17:08:17.241  INFO 4216 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-16 17:08:17.241  INFO 4216 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3053 ms
+2020-08-16 17:08:18.795  INFO 4216 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-16 17:08:19.324  INFO 4216 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-08-16 17:08:19.482  INFO 4216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-16 17:08:19.487  INFO 4216 --- [main] com.jaytest.JaytestApplication           : Started JaytestApplication in 6.401 seconds (JVM running for 7.143)
+2020-08-16 17:08:31.029  INFO 4216 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-16 17:08:31.030  INFO 4216 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-16 17:08:31.043  INFO 4216 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-08-16 17:08:31.471  INFO 4216 --- [http-nio-8081-exec-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-08-16 17:08:31.474  INFO 4216 --- [http-nio-8081-exec-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-08-16 17:08:59.170  INFO 4216 --- [Thread-3] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-08-16 17:08:59.173  INFO 4216 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
