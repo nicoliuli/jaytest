@@ -20,13 +20,15 @@ public class TestServiceImpl implements TestService {
 
     // 写业务逻辑
     @Override
-    public void insertTiRequest(TiRequest tiRequest) {
+    public Integer insertTiRequest(TiRequest tiRequest) {
         log.info("TestServiceImpl insertTiRequest {}", JSON.toJSONString(tiRequest));
         List<ProjectRequest> data = tiRequest.getDATA();
 
+        int i = 0;
         for (ProjectRequest d : data) {
-            testMapper.insertTiRequest(d);
+            i = testMapper.insertTiRequest(d);
         }
+        return i;
     }
 
 

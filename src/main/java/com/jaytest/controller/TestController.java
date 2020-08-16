@@ -34,12 +34,18 @@ public class TestController {
         TiRequest tiRequest = JSON.parseObject(rmdmess, TiRequest.class);
         log.info("解密后::" + rmdmess);
         log.info("json转成对象：{}",tiRequest);
-        testService.insertTiRequest(tiRequest);
+        int ret = testService.insertTiRequest(tiRequest);
 
         TiResponse resp = new TiResponse();
         ProjectResponse data = new ProjectResponse();
-        data.setCode("000");
-        data.setData("数据上报成功！");
+        if(ret >0){
+            data.setCode("000");
+            data.setData("数据上报成功！");
+        }else{
+            data.setCode("1111");
+            data.setData("数据上报失败！");
+        }
+
         resp.setDATA(data);
        return resp;
     }
