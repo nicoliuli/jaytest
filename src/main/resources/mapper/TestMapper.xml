@@ -11,4 +11,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		insert into project (PROJ_ID,PROJ_CODE,PROJ_NAME,PROJ_SNAME,OGN_ID,OGN_CODE) values(#{PROJ_ID},#{PROJ_CODE},#{PROJ_NAME},#{PROJ_SNAME},#{OGN_ID},#{OGN_CODE});
 	</insert>
 
+	<select id="selProject" resultType="com.jaytest.model.ProjectRequest" parameterType="com.jaytest.model.ProjectRequest">
+		select * from project where PROJ_NAME like "%"#{PROJ_NAME}"%"
+	</select>
 </mapper>

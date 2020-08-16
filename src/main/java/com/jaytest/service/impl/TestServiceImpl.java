@@ -29,6 +29,22 @@ public class TestServiceImpl implements TestService {
         }
     }
 
+    @Override
+
+    public List<ProjectRequest> selProject(ProjectRequest projectRequest){
+
+        List<ProjectRequest> list= testMapper.selProject(projectRequest); //传入sql参数
+        log.info("aaaaaa={},{}",JSON.toJSONString(projectRequest),JSON.toJSONString(list));
+
+        for (ProjectRequest vl : list) {
+            if ("工商联222活动房项目".equals(vl.getPROJ_NAME())) {
+                vl.setOGN_CODE("2");
+            }
+        }
+        //业务逻辑
+        return list;
+    }
+
 
 
     @Autowired

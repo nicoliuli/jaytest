@@ -1,17 +1,17 @@
 package com.jaytest.controller;
 
 import com.alibaba.fastjson.JSON;
-import com.jaytest.model.ProjectResponse;
-import com.jaytest.model.RESUtils;
-import com.jaytest.model.TiRequest;
-import com.jaytest.model.TiResponse;
+import com.jaytest.model.*;
 import com.jaytest.service.TestService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.List;
 
 @Controller
 @Slf4j
@@ -34,6 +34,7 @@ public class TestController {
         TiRequest tiRequest = JSON.parseObject(rmdmess, TiRequest.class);
         log.info("解密后::" + rmdmess);
         log.info("json转成对象：{}",tiRequest);
+
         testService.insertTiRequest(tiRequest);
 
         TiResponse resp = new TiResponse();
@@ -42,6 +43,16 @@ public class TestController {
         data.setData("数据上报成功！");
         resp.setDATA(data);
        return resp;
+    }
+
+    @PostMapping("/SelProject")
+    @ResponseBody
+    public List<ProjectRequest> select(String aaa){
+
+         ProjectRequest projectRequest = new ProjectRequest();
+         projectRequest.setPROJ_NAME(aaa);
+        List<ProjectRequest> ll = testService.selProject(projectRequest);
+        return ll;
     }
 
 }
