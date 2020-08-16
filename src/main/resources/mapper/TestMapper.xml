@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.jaytest.dao.TestMapper">
+
+	<!-- 添加部门 -->
+	<insert id="insertTiRequest" parameterType="com.jaytest.model.ProjectRequest">
+		insert into project (PROJ_ID,PROJ_CODE,PROJ_NAME,PROJ_SNAME,OGN_ID,OGN_CODE) values(#{PROJ_ID},#{PROJ_CODE},#{PROJ_NAME},#{PROJ_SNAME},#{OGN_ID},#{OGN_CODE});
+	</insert>
+
+</mapper>
