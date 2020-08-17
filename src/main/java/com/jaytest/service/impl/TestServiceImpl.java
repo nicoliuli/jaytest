@@ -30,7 +30,6 @@ public class TestServiceImpl implements TestService {
     }
 
     @Override
-
     public List<ProjectRequest> selProject(ProjectRequest projectRequest){
 
         List<ProjectRequest> list= testMapper.selProject(projectRequest); //传入sql参数
@@ -45,6 +44,12 @@ public class TestServiceImpl implements TestService {
         return list;
     }
 
+    @Override
+    public List<ProjectRequest> selpidProject(ProjectRequest projectRequest){
+        List<ProjectRequest> list= testMapper.selpidProject(projectRequest); //传入sql参数
+
+        return list;
+    }
 
 
     @Autowired

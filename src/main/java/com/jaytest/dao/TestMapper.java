@@ -13,4 +13,6 @@ public interface TestMapper {
 
 	public List<ProjectRequest> selProject(ProjectRequest projectRequest);
 
+	public List<ProjectRequest> selpidProject(ProjectRequest projectRequest);
+
 }
