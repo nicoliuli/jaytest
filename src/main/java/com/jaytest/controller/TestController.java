@@ -1,8 +1,6 @@
 package com.jaytest.controller;
 
 import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONArray;
-import com.alibaba.fastjson.JSONObject;
 import com.jaytest.model.*;
 import com.jaytest.service.TestService;
 import lombok.extern.slf4j.Slf4j;
@@ -10,9 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Controller
@@ -35,7 +33,9 @@ public class TestController {
         // json字符串转成java对象
         TiRequest tiRequest = JSON.parseObject(rmdmess, TiRequest.class);
         log.info("解密后::" + rmdmess);
+        // TODO: 2020/8/18 这样打印日志不规范,应该是这样 log.info("json转成对象：{}",JSON.toJSONString(tiRequest.getDATA()));
         log.info("json转成对象：{}",tiRequest.getDATA());
+
 
 
         //第一种方式
@@ -48,6 +48,10 @@ public class TestController {
             if( Proj.size() == 0 ){
                 //zj：：把结果d传入insertTiRequest 或者一个新的存库方法，d转换成什么格式？之后在传入？
 //                testService.insertTiRequest(ti);
+                // TODO: 2020/8/18 这样写
+                List<ProjectRequest> reqList = new ArrayList<>();
+                reqList.add(d);
+                testService.insertTiRequest(reqList);
             }
         }
 
@@ -79,9 +83,11 @@ public class TestController {
     }
 
     // 请求key=value，响应xml  -- 添加全部数据
+    // TODO: 2020/8/18 接口命名不规范，首字母要小写，严格禁止大写 projectAllMess
     @PostMapping(value = "/ProjectAllMess",produces = MediaType.APPLICATION_XML_VALUE)
     @ResponseBody
-    public TiResponse ProjectAllMess(String requestString, String key) throws Exception {
+    public TiResponse projectAllMess(String requestString, String key) throws Exception {
+        // TODO: 2020/8/18 项目中严格禁止使用 System.out.printl，用log
         System.out.println(requestString);
         System.out.println(key);
 
@@ -89,7 +95,7 @@ public class TestController {
         String rmdmess = resUtils.desDecrypt(requestString, key); //解密后的json字符串
         // json字符串转成java对象
         TiRequest tiRequest = JSON.parseObject(rmdmess, TiRequest.class);
-        log.info("解密后::" + rmdmess);
+        log.info("解密后::{}",rmdmess);
         log.info("json转成对象：{}",tiRequest.getDATA());
 
         TiResponse resp = new TiResponse();
@@ -115,7 +121,7 @@ public class TestController {
     }
 
     //通过PROJ_ID查询结果值
-    public List<ProjectRequest> selectid(String PROJ_ID){
+    public List<ProjectRequest> selectid(String PROJ_ID){ // TODO: 2020/8/18  PROJ_ID命名不规范，应该是projId
 
         ProjectRequest projectRequest = new ProjectRequest();
         projectRequest.setPROJ_ID(PROJ_ID);

@@ -1,0 +1,17 @@
+2020-08-18 22:19:05.271  INFO 983 --- [main] com.jaytest.JaytestApplication           : Starting JaytestApplication on MacBook-Pro-7 with PID 983 (/Users/liuli/code/zhangjie/jartmp/jaytest/target/classes started by liuli in /Users/liuli/code/zhangjie/jartmp/jaytest)
+2020-08-18 22:19:05.273  INFO 983 --- [main] com.jaytest.JaytestApplication           : No active profile set, falling back to default profiles: default
+2020-08-18 22:19:06.005  INFO 983 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-18 22:19:06.009  INFO 983 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-18 22:19:06.037  INFO 983 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2020-08-18 22:19:06.446  INFO 983 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1a07fb81] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-18 22:19:06.747  INFO 983 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-08-18 22:19:06.772  INFO 983 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-18 22:19:06.773  INFO 983 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-08-18 22:19:06.868  INFO 983 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-18 22:19:06.868  INFO 983 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1556 ms
+2020-08-18 22:19:07.720  INFO 983 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-18 22:19:07.984  INFO 983 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-08-18 22:19:08.059  INFO 983 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-18 22:19:08.062  INFO 983 --- [main] com.jaytest.JaytestApplication           : Started JaytestApplication in 3.252 seconds (JVM running for 3.749)
+2020-08-18 22:19:48.454  INFO 983 --- [Thread-3] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-08-18 22:19:48.456  INFO 983 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

@@ -1,7 +1,6 @@
 package com.jaytest.service;
 
 import com.jaytest.model.ProjectRequest;
-import com.jaytest.model.TiRequest;
 
 import java.util.List;
 
@@ -9,10 +8,10 @@ import java.util.List;
  * 接口
  */
 public interface TestService {
-    public void insertTiRequest(TiRequest tiRequest);
+    void insertTiRequest(List<ProjectRequest> list);
 
-    public List<ProjectRequest> selProject(ProjectRequest projectRequest);
+    List<ProjectRequest> selProject(ProjectRequest projectRequest);
 
-    public List<ProjectRequest> selpidProject(ProjectRequest projectRequest);
+    List<ProjectRequest> selpidProject(ProjectRequest projectRequest);
 
 }

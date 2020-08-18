@@ -3,7 +3,6 @@ package com.jaytest.service.impl;
 import com.alibaba.fastjson.JSON;
 import com.jaytest.dao.TestMapper;
 import com.jaytest.model.ProjectRequest;
-import com.jaytest.model.TiRequest;
 import com.jaytest.service.TestService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,11 +19,10 @@ public class TestServiceImpl implements TestService {
 
     // 写业务逻辑
     @Override
-    public void insertTiRequest(TiRequest tiRequest) {
-        log.info("TestServiceImpl insertTiRequest {}", JSON.toJSONString(tiRequest));
-        List<ProjectRequest> data = tiRequest.getDATA();
+    public void insertTiRequest(List<ProjectRequest> list) {
+        log.info("TestServiceImpl insertTiRequest {}", JSON.toJSONString(list));
 
-        for (ProjectRequest d : data) {
+        for (ProjectRequest d : list) {
             testMapper.insertTiRequest(d);
         }
     }
