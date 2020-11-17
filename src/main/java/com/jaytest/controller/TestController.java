@@ -34,7 +34,8 @@ public class TestController {
         TiRequest tiRequest = JSON.parseObject(rmdmess, TiRequest.class);
         log.info("解密后::" + rmdmess);
         // TODO: 2020/8/18 这样打印日志不规范,应该是这样 log.info("json转成对象：{}",JSON.toJSONString(tiRequest.getDATA()));
-        log.info("json转成对象：{}",tiRequest.getDATA());
+        log.info("json转成对象：{}",tiRequest.getDATA()); //错误写法
+        log.info("json转成对象：{}",JSON.toJSONString(tiRequest.getDATA())); //以后这么写-0818
 
 
 
@@ -84,12 +85,12 @@ public class TestController {
 
     // 请求key=value，响应xml  -- 添加全部数据
     // TODO: 2020/8/18 接口命名不规范，首字母要小写，严格禁止大写 projectAllMess
-    @PostMapping(value = "/ProjectAllMess",produces = MediaType.APPLICATION_XML_VALUE)
+    @PostMapping(value = "/projectAllMess",produces = MediaType.APPLICATION_XML_VALUE)
     @ResponseBody
     public TiResponse projectAllMess(String requestString, String key) throws Exception {
         // TODO: 2020/8/18 项目中严格禁止使用 System.out.printl，用log
-        System.out.println(requestString);
-        System.out.println(key);
+//        System.out.println(requestString);
+//        System.out.println(key);
 
         RESUtils resUtils = new RESUtils();
         String rmdmess = resUtils.desDecrypt(requestString, key); //解密后的json字符串

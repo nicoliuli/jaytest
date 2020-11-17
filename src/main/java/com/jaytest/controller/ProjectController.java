@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.jaytest.model.ProjectResponse;
 import com.jaytest.model.RESUtils;
 import com.jaytest.model.TiRequest;
+import com.jaytest.model.TiResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
@@ -23,22 +24,22 @@ public class ProjectController {
         return "ProjectController{}";
     }
 
-    //    @PostMapping(value = "/ProjectMess", consumes = { MediaType.APPLICATION_XML_VALUE }, produces = MediaType.APPLICATION_XML_VALUE)
-//    @ResponseBody
-//    public TiResponse ProjectMess(@RequestBody TiRequest tiRequest){
-//        TiResponse tiResponse=new TiResponse();
-//        ProjectResponse ROW_INFO=new ProjectResponse(); //数组
-//        ProjectResponse o=new ProjectResponse();
-//        o.setData("数据上报成功!");
-//        o.setCode("000");
-//
-////        ROW_INFO.add(o);
-//        log.info("xml！！！ROW_INFO::" + ROW_INFO);
-//        tiResponse.setDATA(o); //赋值
-//        log.info("xml！！！请求::" + tiRequest);
-//        log.info("xml！！！回复的返回值::" + o);
-//        return tiResponse;
-//    }
+    @PostMapping(value = "/ProjectMess0", consumes = { MediaType.APPLICATION_XML_VALUE }, produces = MediaType.APPLICATION_XML_VALUE)
+    @ResponseBody
+    public TiResponse ProjectMess0(@RequestBody TiRequest tiRequest){
+        TiResponse tiResponse=new TiResponse();
+        ProjectResponse ROW_INFO=new ProjectResponse(); //数组
+        ProjectResponse o=new ProjectResponse();
+        o.setData("数据上报成功!");
+        o.setCode("000");
+
+//        ROW_INFO.add(o);
+        log.info("xml！！！ROW_INFO::" + ROW_INFO);
+        tiResponse.setDATA(o); //赋值
+        log.info("xml！！！请求::" + tiRequest);
+        log.info("xml！！！回复的返回值::" + o);
+        return tiResponse;
+    }
 
     @PostMapping(value = "/ProjectMess", consumes = { MediaType.APPLICATION_XML_VALUE }, produces = MediaType.APPLICATION_XML_VALUE)
     @ResponseBody
@@ -63,6 +64,14 @@ public class ProjectController {
         String rmdmess = resUtils.desDecrypt(mdmess, "12345678");
         log.info("解密后::" + rmdmess);
         return o;
+    }
+
+
+    @PostMapping(value = "/ProjectMess3")
+    @ResponseBody
+    public void ProjectMess3(@RequestBody TiRequest tiRequest){
+        log.info("xml！！！请求::" + tiRequest);
+        log.info("xml！！！请求:gettype:" + getType(tiRequest));
     }
 
     public static String getType(Object o){ //获取变量类型方法
