@@ -2,10 +2,10 @@ package com.jaytest.controller;
 
 import cn.afterturn.easypoi.word.entity.WordImageEntity;
 import com.jaytest.model.ExportWorld;
-import org.springframework.http.ResponseEntity;
+import com.jaytest.model.HttpUtils;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.client.AsyncRestOperations;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -18,6 +18,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Controller
+@Slf4j
 public class ExportworldController {
 
 //    http://localhost:8081/export
@@ -75,13 +76,14 @@ public class ExportworldController {
         return data;
     }
 
+//    get获取数据
     @RequestMapping("/geturl")
     public String geturl() {
-        Map<String, Integer> map = new HashMap<>();
-        map.put("name", 1);
-        AsyncRestOperations restTemplate = null;
-        ResponseEntity<String> responseEntity = (ResponseEntity<String>) restTemplate.getForEntity("http://10.250.23.56/PC/LaborManagement/public/Send?bz={name}", String.class, map);
-        return responseEntity.getBody();
+        Map<String, String> map = new HashMap<>();
+        map.put("name", "李四");
+        String ss = HttpUtils.sendGet("http://10.250.23.56/PC/LaborManagement/public/Send?bz=",1,"123456");
+        log.info("ss:::::" + ss);
+        return ss;
     }
 
 }
